@@ -14,5 +14,5 @@ async function sendQuery() {
   const data = await res.json();
 
   // Show response in the output box
-  document.getElementById("response").innerText = data.response;
+  document.getElementById("response").innerText = data.answer;
 }
